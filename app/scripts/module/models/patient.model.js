@@ -237,6 +237,10 @@
         var patnerPhoneNumberPersonAttributeTypeUuid='b0a08406-09c0-4f8b-8cb5-b22b6d4a8e46';
         return getPersonAttribute(patnerPhoneNumberPersonAttributeTypeUuid);
       };
+      modelDefinition.contactEmailAddress = function(value) {
+        var contactEmailAddressPersonAttributeTypeUuid='2f65dbcb-3e58-45a3-8be7-fd1dc9aa0faa';
+        return getPersonAttribute(contactEmailAddressPersonAttributeTypeUuid);
+      };
       modelDefinition.healthCenter = function(value) {
         var healthCenterPersonAttributeTypeUuid='8d87236c-c2cc-11de-8d13-0010c6dffd0f';
         var location =getPersonAttribute(healthCenterPersonAttributeTypeUuid);
